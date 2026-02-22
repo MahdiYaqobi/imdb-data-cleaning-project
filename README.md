@@ -78,4 +78,29 @@ New features were added to strengthen analysis and for CV impact:
 ## 🔗 How to Run
 1. Clone the repository:  
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/MahdiYaqobi/imdb-data-cleaning-project
+```
+
+2. Go to the project folder:  
+```bash
+cd imdb-data-cleaning-project
+```
+
+3. Install requirements:  
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the notebook:  
+```bash
+python -m notebook
+```
+
+5. Open:  
+`notebooks/imdb_data_cleaning.ipynb`
+
+
+## 📊 Sample Insights
+- Most movies are released after 2000
+- High IMDb rating movies tend to have higher number of votes
+- Multi-genre movies are more common in recent decades
