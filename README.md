@@ -1,8 +1,9 @@
-# IMDb Data Cleaning & Feature Engineering Project
+# IMDb Movies EDA & Visualization  Project
 
 ## 🔹 Project Overview
-This project focuses on cleaning and enhancing the IMDb movies dataset.  
-It demonstrates key **Data Cleaning** and **Feature Engineering** skills using Python and Pandas.  
+This project explores the IMDB Top 1000 Movies using Exploratory Data Analysis **(EDA)** and **data visualization techniques**.
+
+The main goal of project is to analyze movie trends, ratings, genre, revenue patterns and relationships between different movie features using Python and analysis libraries.
 
 The goal is to prepare a high-quality dataset ready for **data analysis** or **machine learning projects**.
 
@@ -11,7 +12,17 @@ The goal is to prepare a high-quality dataset ready for **data analysis** or **m
 ## 🗂 Dataset
 - Original dataset: `data/raw/imdb_raw.csv`
 - Cleaned & enhanced dataset: `data/processed/imdb_clean.csv`
-- Dataset contains popular movies with features like IMDb rating, genre, director, gross revenue, and more.
+-The dataset contains information about IMDb Top 1000 movies, including:
+
+- Movie title
+- Release year
+- Genre
+- Runtime
+- IMDb rating
+- Meta score
+- Director
+- Number of votes
+- Gross revenue
 
 ---
 
@@ -48,9 +59,12 @@ New features were added to strengthen analysis and for CV impact:
 ---
 
 ## 🛠 Tools Used
-- Python 3.x  
-- Pandas library  
-- Jupyter Notebook / VS Code  
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook 
 
 ---
 
@@ -72,6 +86,48 @@ New features were added to strengthen analysis and for CV impact:
 - votes_per_million_gross  
 - main_genre  
 - genre_count  
+
+---
+
+## Exploratory Data Analysis
+
+The project includes:
+
+- Univariate Analysis
+- Bivariate Analysis
+- Correlation Analysis
+- Genre-based Analysis
+- Decade-based Movie Trends
+- Revenue Analysis
+
+---
+
+## Key Insight 
+
+- Most movies have IMDb rating between 7 and 8.
+- Drama is the most common genre in the dataset.
+- Longer movies tend to receive slightly higher IMDb rating.
+- Family and Action movies generate higher average gross revenue.
+- Meta score and IMDb rating show weak positive relationship.
+- Movie production increased significantly in the 2000s and 2010s.
+
+---
+
+## Sample Visualizations
+
+### IMDb Rating Distribution
+![IMDb Rating Distribution](images/rating_distribution.png)
+
+### Movies Per Decade
+![Movies Per Decade](images/movies_per_decade.png)
+
+---
+
+## Conclusion
+
+This project demonstrates how exploratory data analysis can be used to uncover patterns, trends, and relationships within movie datasets. 
+
+The analysis provides insights into audience preferences, movie popularity, and commercial success factors.
 
 ---
 
@@ -100,7 +156,3 @@ python -m notebook
 `notebooks/imdb_data_cleaning.ipynb`
 
 
-## 📊 Sample Insights
-- Most movies are released after 2000
-- High IMDb rating movies tend to have higher number of votes
-- Multi-genre movies are more common in recent decades
