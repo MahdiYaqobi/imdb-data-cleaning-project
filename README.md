@@ -1,6 +1,6 @@
 # IMDb Movies EDA & Visualization  Project
 
-## 🔹 Project Overview
+## Project Overview
 This project explores the IMDB Top 1000 Movies using Exploratory Data Analysis **(EDA)** and **data visualization techniques**.
 
 The main goal of project is to analyze movie trends, ratings, genre, revenue patterns and relationships between different movie features using Python and analysis libraries.
@@ -9,7 +9,7 @@ The goal is to prepare a high-quality dataset ready for **data analysis** or **m
 
 ---
 
-## 🗂 Dataset
+## Dataset
 - Original dataset: `data/raw/imdb_raw.csv`
 - Cleaned & enhanced dataset: `data/processed/imdb_clean.csv`
 -The dataset contains information about IMDb Top 1000 movies, including:
@@ -26,7 +26,7 @@ The goal is to prepare a high-quality dataset ready for **data analysis** or **m
 
 ---
 
-## 🧹 Data Cleaning Steps
+## Data Cleaning Steps
 1. Removed unnecessary columns:
    - Poster_Link, Overview, Certificate, Star2, Star3, Star4
 2. Renamed columns for consistency (lowercase, snake_case)
@@ -43,7 +43,7 @@ The goal is to prepare a high-quality dataset ready for **data analysis** or **m
 
 ---
 
-## 🚀 Feature Engineering
+## Feature Engineering
 New features were added to strengthen analysis and for CV impact:
 
 | Feature | Description |
@@ -58,7 +58,7 @@ New features were added to strengthen analysis and for CV impact:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - Python
 - Pandas
 - NumPy
@@ -68,7 +68,7 @@ New features were added to strengthen analysis and for CV impact:
 
 ---
 
-## 📈 Final Dataset Columns
+## Final Dataset Columns
 - series_title  
 - released_year  
 - runtime  
@@ -131,7 +131,7 @@ The analysis provides insights into audience preferences, movie popularity, and 
 
 ---
 
-## 🔗 How to Run
+## How to Run
 1. Clone the repository:  
 ```bash
 git clone https://github.com/MahdiYaqobi/imdb-data-cleaning-project
